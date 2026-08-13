@@ -1,13 +1,24 @@
-public class Main {
-    public int addvalue(){
-        int a=4;
-        int b=5;
-        int sum=a+b;
-        return sum;
+public class Main{
+    
+ public static void main(String[] args) {
+    int Size=5;
+    int []num=new int[Size];
+    num[0]=10;
+    num[1]=20;
+    num[2]=30;
+    for(int i=0;i<Size;i++){
+        System.out.println(num[5]);
     }
-    public static void main(String[]args){
-        Main object=new Main();
-        int result=object.addvalue();
-        System.out.println("Result: " + result);
-    }
+ }  
+
 }
+
+
+//*
+int marks[]={10,20,30};
+int len=marks.length;
+for(int i=0;i<len;i++);{
+    System.out.println();
+}
+
+// */
